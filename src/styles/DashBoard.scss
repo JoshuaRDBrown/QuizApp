@@ -1,0 +1,105 @@
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.5;
+}
+
+.dashboard-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+
+  h1 {
+    padding: 10px;
+    font-size: 30px;
+    border-bottom: 4px solid white;
+  }
+
+  #user {
+    color: white;
+  }
+
+  #logout {
+    background-color: $error;
+    border: none;
+    box-shadow: none;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .leaderboards-button {
+    button {
+      width: 90%;
+      height: 50px;
+      box-shadow: 5px 5px;
+    }
+  }
+
+  button {
+    width: 75%;
+    height: 100px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 14px;
+    outline: none;
+    box-shadow: 5px 5px;
+    font-size: 30px;
+
+    span:nth-child(odd) {
+      position: absolute;
+      left: 17.5%;
+    }
+
+    span:nth-child(even) {
+      position: absolute;
+      right: 17.5%;
+    }
+  }
+
+  .setUsernameForm {
+    background-color: white;
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    border-radius: 14px;
+    font-family: 'Manrope', sans-serif;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    button {
+      width: 150px;
+      height: 40px;
+      border: none;
+      background-color: $button-green;
+      border-radius: 0px;
+      font-size: 15px;
+      color: white;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 10px;
+    }
+
+    input {
+      height: 30px;
+      width: 90%;
+      font-size: 25px;
+      padding: 5px;
+      border: 2px solid lightgray;
+    }
+
+  }
+}

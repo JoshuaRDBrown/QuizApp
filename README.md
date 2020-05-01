@@ -1,3 +1,7 @@
+This is meant to be a web app so use a mobile device (or dev tools) for best results!
+
+LIVE VERSION : https://quiz-2663b.web.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

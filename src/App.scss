@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #4287f5;
+}
+
+$error: #e62929;
+$warning: #f0b541;
+$button-green: #32a852;
+
+@import './styles/Login.scss';
+@import './styles/DashBoard.scss';
+@import './styles/Game.scss';
+@import './styles/LeaderBoard.scss';
